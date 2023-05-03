@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="booking style.css">
+
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 16px
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+input[type=reset] {
+  width: 40%;
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: #f83131;
+}
+</style>
+
+<body>
+  <div class="box">
+<form  name="details" action="booking1.php" method="POST">
+<center>
+<h1><i>Booking Details</i></h1>
+
+ <label for="name"><b>Name:</b></label>
+  <input type="text" id="name" name="name"><br><br>
+
+ <label for="st">Starting Place:</label>
+  <select name="st" id="st">
+
+    <option value="Arakkonam">Arakkonam</option>
+    <option value="Chenagalpattu">Chengalpattu</option>
+    <option value="Chennai Central">Chennai Central</option>
+    <option value="Chennai Egmore">Chennai Egmore</option>
+    <option value="Coimbatore">Coimbatore</option>
+    <option value="Dindigul">Dindigul</option>
+    <option value="Erode">Erode</option>
+    <option value="Gudur">Gudur</option>
+    <option value="Jolarpettai">Jolarpettai</option>
+    <option value="Kanyakumari">Kanyakumari</option>
+    <option value="Karur">Karur</option>
+    <option value="Madurai">Madurai</option>
+    <option value="Mettupalayam">Mettupalayam</option>
+    <option value="Nagarcoil">Nagarcoil</option>
+    <option value="Nagapatinam">Nagapatinam</option>
+    <option value="Palkad">Palkad</option>
+    <option value="Rameswaram">Rameswaram</option>
+    <option value="Salem">Salem</option>
+    <option value="Thanjavur">Thanjavur</option>
+    <option value="Tiruchendur">Tiruchendur</option>
+    <option value="Tiruchirapalli">Tiruchirapalli</option>
+    <option value="Tirunelveli">Tirunelveli</option>
+    <option value="Tiruvannamalai">Tiruvannamalai</option>
+    <option value="Vellore">Vellore</option>
+    <option value="Villupuram">Villupuram</option>
+
+  </select><br><br>
+
+ <label for="end">Ending Place:</label>
+  <select name="end" id="end">
+     <option value="Arakkonam">Arakkonam</option>
+    <option value="Chenagalpattu">Chengalpattu</option>
+    <option value="Chennai Central">Chennai Central</option>
+    <option value="Chennai Egmore">Chennai Egmore</option>
+    <option value="Coimbatore">Coimbatore</option>
+    <option value="Dindigul">Dindigul</option>
+    <option value="Erode">Erode</option>
+    <option value="Gudur">Gudur</option>
+    <option value="Jolarpettai">Jolarpettai</option>
+    <option value="Kanyakumari">Kanyakumari</option>
+    <option value="Karur">Karur</option>
+    <option value="Madurai">Madurai</option>
+    <option value="Mettupalayam">Mettupalayam</option>
+    <option value="Nagarcoil">Nagarcoil</option>
+    <option value="Nagapatinam">Nagapatinam</option>
+    <option value="Palkad">Palkad</option>
+    <option value="Rameswaram">Rameswaram</option>
+    <option value="Salem">Salem</option>
+    <option value="Thanjavur">Thanjavur</option>
+    <option value="Tiruchendur">Tiruchendur</option>
+    <option value="Tiruchirapalli">Tiruchirapalli</option>
+    <option value="Tirunelveli">Tirunelveli</option>
+    <option value="Tiruvannamalai">Tiruvannamalai</option>
+    <option value="Vellore">Vellore</option>
+    <option value="Villupuram">Villupuram</option>
+
+    
+
+  </select><br><br>
+
+ <label for="Tr">Train Number: </label>
+  <input type="text"  name="Tr"><br><br>
+
+ <label for="tkt">Number of Tickets: </label>
+  <input type="text"  name="tkt"><br><br>
+
+ <label for="date">Date of Journey: </label>
+  <input type="date"  name="date"><br><br>
+
+ <label for="price">Train Name: </label>
+  <input type="text"  name="Tn"><br><br>
+
+  <input type="submit" value="Submit"> &nbsp;
+  <input type="reset" value="Cancel">
+</center>
+</form>
+</div>
+</body>
+</html>
