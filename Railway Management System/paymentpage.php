@@ -78,5 +78,6 @@ echo 'input[type=reset]:hover {
     echo "0 results";
 }
 $sql1 = "DELETE FROM temp";
+mysqli_query($conn, $sql1);
 mysqli_close($conn);
 ?>
