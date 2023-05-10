@@ -24,8 +24,8 @@ $date = $_POST['date'];
 $Tn = $_POST['Tn'];
 
 // Prepare SQL statement
-$sql = "INSERT INTO booking (name,st,end,Tr,tkt,date,Tn) VALUES ('$name', '$st', '$end','Tr','tkt','date','Tn')";
-$sql1 = "INSERT INTO temp(name,st,end,Tr,tkt,date,Tn) VALUES ('$name', '$st', '$end','Tr','tkt','date','Tn')";
+$sql = "INSERT INTO booking (name,st,end,Tr,tkt,date,Tn) VALUES ('$name', '$st', '$end','$Tr','$tkt','$date','$Tn')";
+$sql1 = "INSERT INTO temp(name,st,end,Tr,tkt,date,Tn) VALUES ('$name', '$st', '$end','$Tr','$tkt','$date','$Tn')";
 
 // Execute query
 if (mysqli_query($conn, $sql)&& mysqli_query($conn,$sql1)) {
