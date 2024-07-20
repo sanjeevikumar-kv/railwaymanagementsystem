@@ -51,8 +51,6 @@ The Railway Management System is a web-based application developed as a mini-pro
 ## Contribution
 This project was a collaborative effort. My contributions include designing the frontend and connecting the code with the local database using MySQL and XAMPP as the server. It was a great experience working with my team to plan and execute this project.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 - **Name:** Sanjeevi Kumar K V
